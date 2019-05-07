@@ -10,7 +10,8 @@
         <tab id="niks_extensions" translate="label" sortOrder="210">
             <label>Niks Extensions</label>
         </tab>
-        <section id="niks_layered_navigation" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+        <!-- Hidden since all these are beta features -->
+        <section id="niks_layered_navigation" translate="label" type="text" sortOrder="100" showInDefault="0" showInWebsite="0" showInStore="0">
             <label>Layered Navigation</label>
             <tab>niks_extensions</tab>
             <resource>Niks_LayeredNavigation::layered_navigation</resource>
